@@ -17,8 +17,8 @@ export const PERSONAL_INFO = {
   githubUrl: 'https://github.com/Matiasenriquez',
   linkedinUrl: 'https://www.linkedin.com/in/alejandro-matias-enriquez-701488232/',
   cvUrl: {
-    es: '/cv/Alejandro_Matias_Enriquez_CV_ES.pdf',
-    en: '/cv/Alejandro_Matias_Enriquez_CV_EN.pdf',
+    es: './cv/Alejandro_Matias_Enriquez_CV_ES.pdf',
+    en: './cv/Alejandro_Matias_Enriquez_CV_EN.pdf',
   },
 };
 
