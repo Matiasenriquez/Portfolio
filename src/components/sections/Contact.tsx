@@ -192,7 +192,7 @@ export const Contact: React.FC = () => {
       </div>
 
       {/* Bottom Copyright Bar */}
-      <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-[var(--border-glass)] pt-6 text-center sm:flex-row sm:text-left">
+      <div className="mt-10 flex flex-col items-center justify-center gap-4 border-t border-[var(--border-glass)] pt-6 text-center sm:flex-row">
         <div className="flex items-center gap-2.5">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg border border-[var(--border-glass-strong)] font-display text-xs font-extrabold">
             <span className="text-g-blue">M</span>E
@@ -201,9 +201,6 @@ export const Contact: React.FC = () => {
             © {new Date().getFullYear()} {PERSONAL_INFO.fullName}. {t.footerRights}
           </span>
         </div>
-        <p className="font-mono text-[11px] text-[var(--text-muted)]">
-          {t.footerBuiltWith}
-        </p>
       </div>
     </footer>
   );

@@ -112,7 +112,6 @@ export const UI_COPY: Record<
       cvCardDesc: string;
       cvCardBtn: string;
       footerRights: string;
-      footerBuiltWith: string;
     };
   }
 > = {
@@ -212,7 +211,6 @@ export const UI_COPY: Record<
       cvCardDesc: 'Descargá mi perfil técnico detallado en formato PDF listo para revisión.',
       cvCardBtn: 'Descargar CV en Español (PDF)',
       footerRights: 'Todos los derechos reservados.',
-      footerBuiltWith: 'Diseñado con estética Glassmorfismo & Google Style Palette · React + TypeScript + Tailwind CSS',
     },
   },
   en: {
@@ -311,7 +309,6 @@ export const UI_COPY: Record<
       cvCardDesc: 'Download my detailed technical resume in PDF format.',
       cvCardBtn: 'Download English CV (PDF)',
       footerRights: 'All rights reserved.',
-      footerBuiltWith: 'Crafted with Glassmorphism & Google Style Palette · React + TypeScript + Tailwind CSS',
     },
   },
 };
